@@ -1,4 +1,4 @@
-package fr.kizafox.pets.utils;
+package fr.kizafox.kpets.utils;
 
 import java.util.stream.Stream;
 
@@ -9,8 +9,8 @@ import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 
-import fr.kizafox.pets.KPets;
-import fr.kizafox.pets.utils.head.CustomSkull;
+import fr.kizafox.kpets.KPets;
+import fr.kizafox.kpets.utils.head.CustomSkull;
 
 public class PetManager {
 	
