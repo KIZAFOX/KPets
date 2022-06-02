@@ -1,4 +1,4 @@
-package fr.kizafox.pets.utils;
+package fr.kizafox.kpets.utils;
 
 import org.bukkit.ChatColor;
 

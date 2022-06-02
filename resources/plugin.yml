@@ -1,6 +1,5 @@
 name: KPets
 version: "1.0"
 author: KIZAFOX
-main: fr.kizafox.pets.Main
-
+main: fr.kizafox.kpets.KPets
 site: https://kizafox.fr

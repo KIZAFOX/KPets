@@ -1,4 +1,4 @@
-package fr.kizafox.pets;
+package fr.kizafox.kpets;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -9,8 +9,8 @@ import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import fr.kizafox.pets.utils.PetManager;
-import fr.kizafox.pets.utils.Pets;
+import fr.kizafox.kpets.utils.PetManager;
+import fr.kizafox.kpets.utils.Pets;
 
 public class KPets extends JavaPlugin implements Listener {
 	
@@ -28,7 +28,7 @@ public class KPets extends JavaPlugin implements Listener {
 		
 		this.getServer().getPluginManager().registerEvents(this, this);
 		
-		Bukkit.getConsoleSender().sendMessage(ChatColor.YELLOW + "KPets is enabled ! " + ChatColor.GRAY + "(" + ChatColor.GREEN + "Version: " + ChatColor.LIGHT_PURPLE + this.getDescription().getVersion() + ChatColor.GRAY + ")");
+		Bukkit.getConsoleSender().sendMessage(ChatColor.YELLOW + "KPets is enabled ! @KIZAFOX " + ChatColor.GRAY + "(" + ChatColor.GREEN + "Version: " + ChatColor.LIGHT_PURPLE + this.getDescription().getVersion() + ChatColor.GRAY + ")");
 	}
 	
 	@Override
@@ -51,8 +51,8 @@ public class KPets extends JavaPlugin implements Listener {
 	
 	@EventHandler
 	public void onMove(PlayerMoveEvent event) {
-		this.playerPetManager.loadCosmetic(Pets.RubiksCube);
-		this.playerPetManager.loadCosmetic(Pets.Turtle);
+		//this.playerPetManager.loadCosmetic(Pets.RubiksCube);
+		//this.playerPetManager.loadCosmetic(Pets.Turtle);
 	}
 	
 	public static KPets get() {

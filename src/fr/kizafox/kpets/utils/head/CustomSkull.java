@@ -1,4 +1,4 @@
-package fr.kizafox.pets.utils.head;
+package fr.kizafox.kpets.utils.head;
 
 import java.lang.reflect.Field;
 import java.util.UUID;
